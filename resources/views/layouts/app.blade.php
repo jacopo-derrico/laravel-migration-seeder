@@ -13,9 +13,9 @@
     <h1 class="text-center my-5">Trains</h1>
 
     <main class="container">
-        <div class="row gap-2 ">
+        <div class="row row-cols-4 g-5 ">
             @foreach ($trains as $train)
-            <div class="card col-3">
+            <div class="card col px-0">
                 <img src="https://picsum.photos/200" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">{{ $train['azienda'] }}</h5>
